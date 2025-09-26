@@ -1,182 +1,152 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Earlich Lozano CV</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </head>
-  <body>
-   <nav class="navbar fixed-top navbar-expand-lg navbar-dark page-navbar gradient">
-      <div class="container">
-        <a class="navbar-brand logo" href="#">My CV</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item item">
-                <a class="nav-link" href="#work-experience">Work Experience</a>
-              </li>
-              <li class="nav-item item">
-                <a class="nav-link" href="#education">Education</a>
-              </li>
-              <li class="nav-item item">
-                <a class="nav-link" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item item">
-                <a class="nav-link" href="#hobbies">Hobbies</a>
-              </li>
-            </ul>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earlich Lozano - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    header {
+      background: #0d6efd;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      margin-bottom: 1rem;
+    }
+    .btn-hire {
+      background: white;
+      color: #0d6efd;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      font-weight: bold;
+      border-radius: 25px;
+    }
+    .section {
+      padding: 3rem 1rem;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #0d6efd;
+    }
+    .item {
+      margin-bottom: 2rem;
+    }
+    footer {
+      background: #0d6efd;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Earlich Lozano</h1>
+    <p>Technician | Assistant Engineer | QGIS Design Engineer</p>
+    <a href="mailto:lozanoearlich@gmail.com" class="btn btn-hire">Hire Me</a>
+    <p class="mt-2">📞 +63 994 601 7404 | ✉️ lozanoearlich@gmail.com</p>
+  </header>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <h2>Experience</h2>
+
+    <div class="container">
+      <div class="item">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Design Engineer (QGIS)</h3>
+            <h4 class="organization">GreenFibre</h4>
           </div>
+          <div class="col-md-6 text-end">
+            <time class="period">June 2025 -</time>
+          </div>
+        </div>
+        <p class="text-muted">Designed plans for Wi-Fi fiber cables, poles, and equipment such as NAP boxes, LCPs, and closures using QGIS. Assisted in plan implementation and field deployment.</p>
       </div>
-    </nav>
-    <main class="page cv-page">
-      <section class="cv-block block-intro border-bottom">
-        <div class="container">
-          <div class="avatar">
-            <img class="img-fluid rounded-circle" src="assets/img/avatar.jpg">
+
+      <div class="item">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Assistant Engineer / Technician</h3>
+            <h4 class="organization">Shadowman Telecommunication Services</h4>
           </div>
-          <p>Hello! I am <strong>Earlich Lozano</strong>. I work as a <strong>Technician</strong>, <strong>Assistant Engineer</strong>, and <strong>QGIS Design Engineer</strong>. I have experience in designing fiber optic networks, telecom infrastructure, and assisting in field implementations.</p>
-          <a href="mailto:your.email@example.com" class="btn btn-outline-primary">Hire Me</a>
-        </div>
-      </section>
-      <section class="cv-block info">
-        <div class="container">
-          <div class="work-experience group" id="work-experience">
-            <h2 class="text-center">Work Experience</h2>
-
-            <div class="item">
-              <div class="row">
-                <div class="col-md-6">
-                  <h3>Technician</h3>
-                  <h4 class="organization">Shadowman Telecommunication Services</h4>
-                </div>
-                <div class="col-md-6">
-                  <time class="period">June 2024</time>
-                </div>
-              </div>
-              <p class="text-muted">Provided technical support, troubleshooting, and maintenance of IT/network systems. Assisted in equipment installation and ensured operational efficiency.</p>
-            </div>
-
-            <div class="item">
-              <div class="row">
-                <div class="col-md-6">
-                  <h3>Assistant Engineer</h3>
-                  <h4 class="organization">Shadowman Telecommunication Services</h4>
-                </div>
-                <div class="col-md-6">
-                  <time class="period">June 2024</time>
-                </div>
-              </div>
-              <p class="text-muted">Worked closely with senior engineers on telecom infrastructure projects. Supported design validation, documentation, and assisted in field implementations to ensure compliance with technical standards.</p>
-            </div>
-
-            <div class="item">
-              <div class="row">
-                <div class="col-md-6">
-                  <h3>QGIS Design Engineer</h3>
-                  <h4 class="organization">GreenFibre</h4>
-                </div>
-                <div class="col-md-6">
-                  <time class="period">June 2025</time>
-                </div>
-              </div>
-              <p class="text-muted">Designed fiber optic network layouts using QGIS, including Wi-Fi fiber cables, poles, and network equipment (NAP boxes, LCPs, closures, etc.). Collaborated with field teams to implement plans, ensuring practical feasibility and accurate deployment on-site.</p>
-            </div>
-          </div>
-
-          <div class="education group" id="education">
-            <h2 class="text-center">Education</h2>
-            <div class="item">
-              <div class="row">
-                <div class="col-md-6">
-                  <h3>High School</h3>
-                  <h4 class="organization">Albert Einstein School</h4>
-                </div>
-                <div class="col-md-6">
-                  <time class="period">09/2005 - 05/2010</time>
-                </div>
-              </div>
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="item">
-              <div class="row">
-                <div class="col-md-6">
-                  <h3>Applied Physics</h3>
-                  <h4 class="organization">Stephen Hawking College</h4>
-                </div>
-                <div class="col-md-6">
-                  <time class="period">09/2010 - 06/2015</time>
-                </div>
-              </div>
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-
-          <div class="group" id="skills">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="skills info-card">
-                  <h2>Skills</h2>
-                  <h3>HTML</h3>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:100%"></div>
-                  </div>
-                  <h3>PHP</h3>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:90%"></div>
-                  </div>
-                  <h3>JavaScript</h3>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:80%"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="contact-info info-card">
-                  <h2>Contact Info</h2>
-                  <div class="row">
-                    <div class="col-1"><i class="ion-android-calendar icon"></i></div>
-                    <div class="col-9"><span>10/10/1990</span></div>
-                  </div>
-                  <div class="row">
-                    <div class="col-1"><i class="ion-person icon"></i></div>
-                    <div class="col-9"><span>Earlich Lozano</span></div>
-                  </div>
-                  <div class="row">
-                    <div class="col-1"><i class="ion-ios-telephone icon"></i></div>
-                    <div class="col-9"><span>+235 3217 424</span></div>
-                  </div>
-                  <div class="row">
-                    <div class="col-1"><i class="ion-at icon"></i></div>
-                    <div class="col-9"><span>your.email@example.com</span></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="hobbies group" id="hobbies">
-            <h2 class="text-center">Hobbies</h2>
-            <p class="text-center text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="col-md-6 text-end">
+            <time class="period">June 2024 -</time>
           </div>
         </div>
-      </section>
-      <footer class="page-footer">
-        <div class="container">
-          <div class="social-icons">
-            <a href="https://facebook.com/yourprofile"><i class="ion-social-facebook" title="Facebook"></i></a>
-            <a href="https://instagram.com/yourprofile"><i class="ion-social-instagram-outline" title="Instagram"></i></a>
-            <a href="https://twitter.com/yourprofile"><i class="ion-social-twitter" title="Twitter"></i></a>
+        <p class="text-muted">Assisted in the design, planning, and implementation of telecommunication systems. Worked on field installations, maintenance, and technical support for fiber networks and related equipment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section" id="education">
+    <h2>Education</h2>
+
+    <div class="container">
+      <div class="item">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Bachelor of Science in Information Technology</h3>
+            <h4 class="organization">Mindanao State University - General Santos</h4>
+          </div>
+          <div class="col-md-6 text-end">
+            <time class="period">2022 - 2026</time>
           </div>
         </div>
-      </footer>
-    </main>
-  </body>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="assets/js/script.js"></script>
+        <p class="text-muted">Currently pursuing a degree in Information Technology with a focus on systems integration, networking, and emerging technologies.</p>
+      </div>
+
+      <div class="item">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Senior High School - STEM Strand</h3>
+            <h4 class="organization">Special Education Integrated School</h4>
+          </div>
+          <div class="col-md-6 text-end">
+            <time class="period">2020 - 2022</time>
+          </div>
+        </div>
+        <p class="text-muted">Completed the STEM strand with strong foundations in science, technology, engineering, and mathematics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <h2>Skills</h2>
+
+    <div class="container">
+      <ul class="list-group">
+        <li class="list-group-item">Fiber optic design & implementation (QGIS, telecom planning)</li>
+        <li class="list-group-item">Networking (LAN, WAN, VLANs, Routing, Systems Integration)</li>
+        <li class="list-group-item">Fieldwork & technical support for telecom equipment</li>
+        <li class="list-group-item">Hardware troubleshooting & installation</li>
+        <li class="list-group-item">IT systems (Windows, Linux, network configuration)</li>
+        <li class="list-group-item">Team collaboration & project assistance</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Earlich Lozano | All Rights Reserved</p>
+  </footer>
+
+</body>
 </html>
